@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "@Unknown_Hacker_005_X"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@SHASHI_005_X_BOT:port/@unknown_hacker_005_x'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:postgresql-sinuous-36430'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after in the discovery that certain long-running sed commands maxed out cpu usage
